@@ -19,4 +19,15 @@ namespace Constant
 
     constexpr double MIN_LENGTH = 0.0;
     constexpr double MAX_LENGTH = 1000000.0;
+
+    const int ASCII_SMALL_A = 97;
+    const int ASCII_SMALL_Z = 122;
+    const int ASCII_CAPITAL_A = 65;
+    const int ASCII_CAPITAL_Z = 90;
+    const int ASCII_DIGIT_0 = 48;
+    const int ASCII_DIGIT_9 = 57;
+    const int ASCII_SPECIAL_START = 33;
+    const int ASCII_SPECIAL_END = 47;
+
+    const int MAX_KEYS = SHRT_MAX;
 }
