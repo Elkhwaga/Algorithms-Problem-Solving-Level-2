@@ -45,4 +45,13 @@ namespace Enums
 		NOT_PALINDROME = 0,
 		PALINDROME = 1
 	};
+
+	enum CharType
+	{
+		SmallLetter = 1,
+		CapitalLetter = 2,
+		SpecialChar = 3,
+		Digit = 4,
+		All = 5
+	};
 }
