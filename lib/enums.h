@@ -39,4 +39,10 @@ namespace Enums
 		PERFECT = 1,
 		NOT_PERFECT = 0
 	};
+
+	enum PalindromeOrNot
+	{
+		NOT_PALINDROME = 0,
+		PALINDROME = 1
+	};
 }
