@@ -107,7 +107,7 @@ struct RandomCharType
         case Enums::CharType::All:
         {
             this->choice = (Enums::CharType)InputNumber::randomNumber(1, 4);
-            this->randomChar += getRandomCharType();
+            this->randomChar = getRandomCharType();
         }
         break;
         }
