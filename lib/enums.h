@@ -54,4 +54,10 @@ namespace Enums
 		Digit = 4,
 		All = 5
 	};
+
+	enum PositiveOrNegative
+	{
+		NEGATIVE = 0,
+		POSITIVE = 1
+	};
 }
