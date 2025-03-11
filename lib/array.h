@@ -7,8 +7,16 @@ struct Array
      * @param arr The array to create
      * @param size The size of the array
      */
-    static void createArrayRandom(int arr[], int size)
+    static void createArrayRandom(int arr[], int size, bool allowNegative = false)
     {
+        if (allowNegative)
+        {
+            for (int i = 0; i < size; i++)
+            {
+                arr[i] = InputNumber::randomNumber(-100, 100);
+            }
+            return;
+        }
         for (int i = 0; i < size; i++)
         {
             arr[i] = InputNumber::randomNumber(1, 100);
