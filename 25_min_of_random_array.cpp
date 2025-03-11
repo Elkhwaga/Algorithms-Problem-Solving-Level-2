@@ -3,6 +3,16 @@
 #include "./lib/display.h"
 
 /*
+    ==============================================
+    |    Algorithms & Problem-Solving Level 2    |
+    ==============================================
+    |                                            |
+    |       @Author: Mohamed Elkhwaga            |
+    |       @version 1.0                         |
+    |                                            |
+    ==============================================
+
+
     - Create a function that takes an array and its size as parameters and returns the minimum number in the array.
         -- The function should use a loop to iterate through the array and find the minimum number.
 
