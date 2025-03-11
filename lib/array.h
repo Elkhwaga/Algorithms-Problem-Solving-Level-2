@@ -21,10 +21,15 @@ struct Array
      * @param size The size of the array.
      * @param message The message to print before the array elements.
      */
-    static void printArray(int arr[], int size, std::string const &message)
+    static void printArray(int arr[], int length, std::string const &message)
     {
         std::cout << message << std::endl;
-        for (int i = 0; i < size; i++)
+        if (length == 0)
+        {
+            std::cout << "Empty Array" << std::endl;
+            return;
+        }
+        for (int i = 0; i < length; i++)
         {
             std::cout << arr[i] << " ";
         }
@@ -43,5 +48,17 @@ struct Array
         {
             arr2[i] = arr[size - i - 1];
         }
+    }
+
+    /**
+     * Adds an element to the end of the array and increments the length.
+     * @param arr The array to which the element will be added.
+     * @param length A reference to the current length of the array, which will be updated.
+     * @param element The element to be added to the array.
+     */
+    static void addArrayElement(int arr[], int &length, int element)
+    {
+        arr[length] = element;
+        length++;
     }
 };
