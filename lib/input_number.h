@@ -145,7 +145,7 @@ struct InputNumber
      * @return float The validated number entered by the user
      * @throws runtime_error if maximum retry attempts are exceeded
      */
-    float readNumberCustom(std::string message, bool allowNegative = true)
+    static float readNumberCustom(std::string message, bool allowNegative = true)
     {
         int attempts = 0;
         while (attempts < Constant::MAX_RETRIES)
