@@ -4,6 +4,15 @@
 #include "./lib/display.h"
 
 /*
+    ==============================================
+    |    Algorithms & Problem-Solving Level 2    |
+    ==============================================
+    |                                            |
+    |       @Author: Firstname Lastname          |
+    |       @version 1.0                         |
+    |                                            |
+    ==============================================
+
 
     - Create a function that takes an array and its size as parameters and adds elements to the array.
         -- The function should use a loop to iterate through the array and add elements to the array.
