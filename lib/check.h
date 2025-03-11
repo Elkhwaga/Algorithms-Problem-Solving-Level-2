@@ -152,4 +152,14 @@ struct Check
 		}
 		return (Number == Sum) ? Enums::PerfectOrNot::PERFECT : Enums::PerfectOrNot::NOT_PERFECT;
 	}
+
+	/**
+	 * Determines if a given number is positive or negative.
+	 * @param number The number to evaluate.
+	 * @return Enums::PositiveOrNegative::POSITIVE if the number is positive, Enums::PositiveOrNegative::NEGATIVE if the number is negative.
+	 */
+	static Enums::PositiveOrNegative getNumberTypeNegativeOrPositive(int number)
+	{
+		return number >= 0 ? Enums::PositiveOrNegative::POSITIVE : Enums::PositiveOrNegative::NEGATIVE;
+	}
 };
