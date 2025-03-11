@@ -4,6 +4,16 @@
 #include "./lib/display.h"
 
 /*
+    ==============================================
+    |    Algorithms & Problem-Solving Level 2    |
+    ==============================================
+    |                                            |
+    |       @Author: Firstname Lastname          |
+    |       @version 1.0                         |
+    |                                            |
+    ==============================================
+
+
     - Create a function that takes two arrays and their sizes as parameters and copies the prime numbers from the first array into the second array.
         -- The function should use a loop to iterate through the first array and copy the prime numbers into the second array.
 
