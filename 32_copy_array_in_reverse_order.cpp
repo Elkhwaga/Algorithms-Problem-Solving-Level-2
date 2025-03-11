@@ -48,7 +48,7 @@ int main()
     Array::createArrayRandom(arr, length);
     Array::printArray(arr, length, "Original Array: ");
 
-    Array::copyArray(arr, arr2, length);
+    Array::copyArrayReverse(arr, arr2, length);
     Array::printArray(arr2, length, "Reversed Array: ");
 
     Display::displayGoodbyeMessage("Goodbye!");
