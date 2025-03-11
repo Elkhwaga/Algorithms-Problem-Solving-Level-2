@@ -2,6 +2,16 @@
 #include "./lib/display.h"
 
 /*
+    ==============================================
+    |    Algorithms & Problem-Solving Level 2    |
+    ==============================================
+    |                                            |
+    |       @Author: Firstname Lastname          |
+    |       @version 1.0                         |
+    |                                            |
+    ==============================================
+
+
     - Create a function that takes an array and its length as parameters and checks if the array is a palindrome.
         -- The function should use a loop to iterate through the array and compare the elements at the beginning and end of the array.
         -- The function should return true if the array is a palindrome and false if it is not.
