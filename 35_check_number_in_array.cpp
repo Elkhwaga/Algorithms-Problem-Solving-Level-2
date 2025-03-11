@@ -7,7 +7,7 @@
     |    Algorithms & Problem-Solving Level 2    |
     ==============================================
     |                                            |
-    |       @Author: Firstname Lastname            |
+    |       @Author: Firstname Lastname          |
     |       @version 1.0                         |
     |                                            |
     ==============================================
