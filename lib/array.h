@@ -37,7 +37,7 @@ struct Array
      * @param arr2 The destination array.
      * @param size The size of the arrays.
      */
-    static void copyArray(int arr[], int arr2[], int size)
+    static void copyArrayReverse(int arr[], int arr2[], int size)
     {
         for (int i = 0; i < size; i++)
         {
